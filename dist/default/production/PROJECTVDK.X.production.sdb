@@ -1,0 +1,599 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"35 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/key_pad.h
+[v _switch_press_scan switch_press_scan `(uc  1 e 1 0 ]
+"42
+[v _keypad_scanner keypad_scanner `(uc  1 e 1 0 ]
+"104
+[v _khoi_taoKeypad khoi_taoKeypad `(v  1 e 1 0 ]
+"16 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/mainlcd.h
+[v _lenh lenh `(v  1 e 1 0 ]
+"30
+[v _gui_Lenh gui_Lenh `(v  1 e 1 0 ]
+"38
+[v _khoi_taoLCD khoi_taoLCD `(v  1 e 1 0 ]
+"44
+[v _du_lieu du_lieu `(v  1 e 1 0 ]
+"57
+[v _chuoi_kytu chuoi_kytu `(v  1 e 1 0 ]
+"63
+[v _clear_lcd clear_lcd `(v  1 e 1 0 ]
+"26 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/menu.h
+[v _failunlock failunlock `(v  1 e 1 0 ]
+"41
+[v _unlock unlock `(v  1 e 1 0 ]
+"69
+[v _lenh_mocua_quetthe lenh_mocua_quetthe `(uc  1 e 1 0 ]
+"121
+[v _lenh_mocua_matkhau lenh_mocua_matkhau `(uc  1 e 1 0 ]
+"160
+[v _lenh_themthe lenh_themthe `(uc  1 e 1 0 ]
+"256
+[v _lenh_xoathe lenh_xoathe `(uc  1 e 1 0 ]
+"263
+[v _lenh_doipass lenh_doipass `(uc  1 e 1 0 ]
+"336
+[v _menu menu `(v  1 e 1 0 ]
+"347
+[v _taplenh_menu taplenh_menu `(uc  1 e 1 0 ]
+"388
+[v _check_dulieu_the check_dulieu_the `(uc  1 e 1 0 ]
+"115 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/RC522.h
+[v _MFRC522_Wr MFRC522_Wr `(v  1 s 1 MFRC522_Wr ]
+"122
+[v _MFRC522_Rd MFRC522_Rd `(uc  1 e 1 0 ]
+"131
+[v _MFRC522_Clear_Bit MFRC522_Clear_Bit `(v  1 s 1 MFRC522_Clear_Bit ]
+"135
+[v _MFRC522_Set_Bit MFRC522_Set_Bit `(v  1 s 1 MFRC522_Set_Bit ]
+"139
+[v _MFRC522_Reset MFRC522_Reset `(v  1 e 1 0 ]
+"143
+[v _MFRC522_AntennaOn MFRC522_AntennaOn `(v  1 e 1 0 ]
+"147
+[v _MFRC522_AntennaOff MFRC522_AntennaOff `(v  1 e 1 0 ]
+"151
+[v _MFRC522_Init MFRC522_Init `(v  1 e 1 0 ]
+"174
+[v _MFRC522_ToCard MFRC522_ToCard `(uc  1 e 1 0 ]
+"277
+[v _MFRC522_Request MFRC522_Request `(uc  1 e 1 0 ]
+"290
+[v _MFRC522_CRC MFRC522_CRC `(v  1 e 1 0 ]
+"437
+[v _MFRC522_AntiColl MFRC522_AntiColl `(uc  1 e 1 0 ]
+"467
+[v _MFRC522_isCard MFRC522_isCard `(uc  1 e 1 0 ]
+"474
+[v _MFRC522_ReadCardSerial MFRC522_ReadCardSerial `(uc  1 e 1 0 ]
+"64 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/soft_spi.h
+[v _Soft_SPI_Init Soft_SPI_Init `(v  1 e 1 0 ]
+"80
+[v _Soft_SPI_Read Soft_SPI_Read `(uc  1 e 1 0 ]
+"101
+[v _Soft_SPI_Write Soft_SPI_Write `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"38 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X\mainproject.c
+[v _readEEPROM readEEPROM `(uc  1 e 1 0 ]
+"44
+[v _writeEEPROM writeEEPROM `(v  1 e 1 0 ]
+"57
+[v _main main `(v  1 e 1 0 ]
+"22 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/menu.h
+[v _mk mk `[6]uc  1 e 6 0 ]
+[s S91 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"181 C:\Program Files\Microchip\xc8\v2.41\pic\include\proc\pic16f877a.h
+[u S98 . 1 `S91 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES98  1 e 1 @5 ]
+"216
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S22 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"357
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES31  1 e 1 @8 ]
+[s S143 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"477
+[s S152 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S157 . 1 `S143 1 . 1 0 `S152 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES157  1 e 1 @11 ]
+[s S176 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+]
+"609
+[u S183 . 1 `S176 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES183  1 e 1 @13 ]
+"1255
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S65 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1454
+[u S74 . 1 `S65 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES74  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2288
+[v _EEDATA EEDATA `VEuc  1 e 1 @268 ]
+"2295
+[v _EEADR EEADR `VEuc  1 e 1 @269 ]
+[s S125 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"2331
+[u S132 . 1 `S125 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES132  1 e 1 @396 ]
+"2361
+[v _EECON2 EECON2 `VEuc  1 e 1 @397 ]
+"2678
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"2681
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"2684
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"2687
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"2690
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"2693
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"2696
+[v _RB6 RB6 `VEb  1 e 0 @54 ]
+"2699
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"2708
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2711
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"2714
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"2717
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"2720
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"57 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X\mainproject.c
+[v _main main `(v  1 e 1 0 ]
+{
+"77
+[v main@nut nut `uc  1 a 1 66 ]
+"93
+} 0
+"347 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/menu.h
+[v _taplenh_menu taplenh_menu `(uc  1 e 1 0 ]
+{
+[v taplenh_menu@a a `uc  1 a 1 wreg ]
+"357
+[v taplenh_menu@nut nut `uc  1 a 1 61 ]
+"347
+[v taplenh_menu@a a `uc  1 a 1 wreg ]
+[v taplenh_menu@a a `uc  1 a 1 62 ]
+"387
+} 0
+"256
+[v _lenh_xoathe lenh_xoathe `(uc  1 e 1 0 ]
+{
+"262
+} 0
+"160
+[v _lenh_themthe lenh_themthe `(uc  1 e 1 0 ]
+{
+"223
+[v lenh_themthe@j_393 j `uc  1 a 1 54 ]
+"217
+[v lenh_themthe@UID UID `[10]uc  1 a 10 35 ]
+"214
+[v lenh_themthe@i_389 i `i  1 a 2 51 ]
+"216
+[v lenh_themthe@TagType TagType `ui  1 a 2 49 ]
+"215
+[v lenh_themthe@h h `uc  1 a 1 48 ]
+"185
+[v lenh_themthe@nutnhan nutnhan `uc  1 a 1 47 ]
+"201
+[v lenh_themthe@number number `uc  1 a 1 53 ]
+"164
+[v lenh_themthe@a a `[6]uc  1 a 6 29 ]
+"162
+[v lenh_themthe@i i `i  1 a 2 56 ]
+[v lenh_themthe@flagmksai flagmksai `i  1 a 2 45 ]
+"163
+[v lenh_themthe@j j `uc  1 a 1 55 ]
+[v lenh_themthe@F1288 F1288 `[6]uc  1 s 6 F1288 ]
+"255
+} 0
+"388
+[v _check_dulieu_the check_dulieu_the `(uc  1 e 1 0 ]
+{
+[v check_dulieu_the@number number `uc  1 a 1 wreg ]
+[v check_dulieu_the@number number `uc  1 a 1 wreg ]
+[v check_dulieu_the@number number `uc  1 a 1 3 ]
+"395
+} 0
+"69
+[v _lenh_mocua_quetthe lenh_mocua_quetthe `(uc  1 e 1 0 ]
+{
+"73
+[v lenh_mocua_quetthe@UID UID `[10]uc  1 a 10 33 ]
+"70
+[v lenh_mocua_quetthe@tong tong `i  1 a 2 54 ]
+[v lenh_mocua_quetthe@j j `i  1 a 2 52 ]
+"72
+[v lenh_mocua_quetthe@TagType TagType `ui  1 a 2 48 ]
+"70
+[v lenh_mocua_quetthe@i i `i  1 a 2 46 ]
+[v lenh_mocua_quetthe@h h `i  1 a 2 43 ]
+[v lenh_mocua_quetthe@a a `i  1 a 2 31 ]
+[v lenh_mocua_quetthe@flag flag `i  1 a 2 29 ]
+"71
+[v lenh_mocua_quetthe@y y `uc  1 a 1 51 ]
+[v lenh_mocua_quetthe@x x `uc  1 a 1 50 ]
+[v lenh_mocua_quetthe@address address `uc  1 a 1 45 ]
+"120
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 1 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 2 ]
+"51
+} 0
+"467 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/RC522.h
+[v _MFRC522_isCard MFRC522_isCard `(uc  1 e 1 0 ]
+{
+[v MFRC522_isCard@TagType TagType `*.4uc  1 a 1 wreg ]
+[v MFRC522_isCard@TagType TagType `*.4uc  1 a 1 wreg ]
+"469
+[v MFRC522_isCard@TagType TagType `*.4uc  1 a 1 13 ]
+"473
+} 0
+"277
+[v _MFRC522_Request MFRC522_Request `(uc  1 e 1 0 ]
+{
+[v MFRC522_Request@reqMode reqMode `uc  1 a 1 wreg ]
+"280
+[v MFRC522_Request@backBits backBits `ui  1 a 2 20 ]
+"279
+[v MFRC522_Request@_status _status `uc  1 a 1 19 ]
+"277
+[v MFRC522_Request@reqMode reqMode `uc  1 a 1 wreg ]
+[v MFRC522_Request@TagType TagType `*.4uc  1 p 1 12 ]
+"281
+[v MFRC522_Request@reqMode reqMode `uc  1 a 1 18 ]
+"289
+} 0
+"474
+[v _MFRC522_ReadCardSerial MFRC522_ReadCardSerial `(uc  1 e 1 0 ]
+{
+[v MFRC522_ReadCardSerial@str str `*.4uc  1 a 1 wreg ]
+"476
+[v MFRC522_ReadCardSerial@_status _status `uc  1 a 1 24 ]
+"474
+[v MFRC522_ReadCardSerial@str str `*.4uc  1 a 1 wreg ]
+"477
+[v MFRC522_ReadCardSerial@str str `*.4uc  1 a 1 25 ]
+"483
+} 0
+"437
+[v _MFRC522_AntiColl MFRC522_AntiColl `(uc  1 e 1 0 ]
+{
+[v MFRC522_AntiColl@serNum serNum `*.4uc  1 a 1 wreg ]
+"442
+[v MFRC522_AntiColl@unLen unLen `ui  1 a 2 19 ]
+"440
+[v MFRC522_AntiColl@i i `uc  1 a 1 22 ]
+"439
+[v MFRC522_AntiColl@_status _status `uc  1 a 1 21 ]
+"441
+[v MFRC522_AntiColl@serNumCheck serNumCheck `uc  1 a 1 18 ]
+"437
+[v MFRC522_AntiColl@serNum serNum `*.4uc  1 a 1 wreg ]
+"441
+[v MFRC522_AntiColl@serNum serNum `*.4uc  1 a 1 23 ]
+"461
+} 0
+"174
+[v _MFRC522_ToCard MFRC522_ToCard `(uc  1 e 1 0 ]
+{
+[v MFRC522_ToCard@command command `uc  1 a 1 wreg ]
+"181
+[v MFRC522_ToCard@i i `ui  1 a 2 15 ]
+"180
+[v MFRC522_ToCard@n n `uc  1 a 1 17 ]
+"177
+[v MFRC522_ToCard@irqEn irqEn `uc  1 a 1 13 ]
+"179
+[v MFRC522_ToCard@lastBits lastBits `uc  1 a 1 12 ]
+"176
+[v MFRC522_ToCard@_status _status `uc  1 a 1 11 ]
+"178
+[v MFRC522_ToCard@waitIRq waitIRq `uc  1 a 1 10 ]
+"174
+[v MFRC522_ToCard@command command `uc  1 a 1 wreg ]
+[v MFRC522_ToCard@sendData sendData `*.4uc  1 p 1 0 ]
+[v MFRC522_ToCard@sendLen sendLen `uc  1 p 1 1 ]
+[v MFRC522_ToCard@backData backData `*.4uc  1 p 1 2 ]
+[v MFRC522_ToCard@backLen backLen `*.4ui  1 p 1 3 ]
+"176
+[v MFRC522_ToCard@command command `uc  1 a 1 14 ]
+"276
+} 0
+"121 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/menu.h
+[v _lenh_mocua_matkhau lenh_mocua_matkhau `(uc  1 e 1 0 ]
+{
+"145
+[v lenh_mocua_matkhau@nutnhan nutnhan `uc  1 a 1 8 ]
+"124
+[v lenh_mocua_matkhau@a a `[6]uc  1 a 6 0 ]
+"122
+[v lenh_mocua_matkhau@i i `i  1 a 2 10 ]
+[v lenh_mocua_matkhau@flagmksai flagmksai `i  1 a 2 6 ]
+"123
+[v lenh_mocua_matkhau@j j `uc  1 a 1 9 ]
+[v lenh_mocua_matkhau@F1281 F1281 `[6]uc  1 s 6 F1281 ]
+"158
+} 0
+"41
+[v _unlock unlock `(v  1 e 1 0 ]
+{
+"59
+[v unlock@j j `uc  1 a 1 8 ]
+"42
+[v unlock@i i `i  1 a 2 9 ]
+"68
+} 0
+"263
+[v _lenh_doipass lenh_doipass `(uc  1 e 1 0 ]
+{
+"281
+[v lenh_doipass@nutnhan nutnhan `uc  1 a 1 8 ]
+"266
+[v lenh_doipass@a a `[6]uc  1 a 6 0 ]
+"265
+[v lenh_doipass@i i `i  1 a 2 10 ]
+[v lenh_doipass@flagmksai flagmksai `i  1 a 2 6 ]
+"264
+[v lenh_doipass@j j `uc  1 a 1 9 ]
+"265
+[v lenh_doipass@F1304 F1304 `[6]uc  1 s 6 F1304 ]
+"334
+} 0
+"44 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X\mainproject.c
+[v _writeEEPROM writeEEPROM `(v  1 e 1 0 ]
+{
+[v writeEEPROM@address address `uc  1 a 1 wreg ]
+[v writeEEPROM@address address `uc  1 a 1 wreg ]
+[v writeEEPROM@DATA DATA `uc  1 p 1 0 ]
+[v writeEEPROM@address address `uc  1 a 1 1 ]
+"56
+} 0
+"35 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/key_pad.h
+[v _switch_press_scan switch_press_scan `(uc  1 e 1 0 ]
+{
+"37
+[v switch_press_scan@key key `uc  1 a 1 2 ]
+"41
+} 0
+"42
+[v _keypad_scanner keypad_scanner `(uc  1 e 1 0 ]
+{
+"69
+} 0
+"38 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X\mainproject.c
+[v _readEEPROM readEEPROM `(uc  1 e 1 0 ]
+{
+[v readEEPROM@address address `uc  1 a 1 wreg ]
+[v readEEPROM@address address `uc  1 a 1 wreg ]
+[v readEEPROM@address address `uc  1 a 1 0 ]
+"43
+} 0
+"26 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/menu.h
+[v _failunlock failunlock `(v  1 e 1 0 ]
+{
+"40
+} 0
+"336
+[v _menu menu `(v  1 e 1 0 ]
+{
+"346
+} 0
+"63 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/mainlcd.h
+[v _clear_lcd clear_lcd `(v  1 e 1 0 ]
+{
+"64
+[v clear_lcd@a a `uc  1 a 1 3 ]
+"78
+} 0
+"57
+[v _chuoi_kytu chuoi_kytu `(v  1 e 1 0 ]
+{
+"58
+[v chuoi_kytu@i i `uc  1 a 1 4 ]
+"57
+[v chuoi_kytu@a a `*.25uc  1 p 2 2 ]
+"62
+} 0
+"44
+[v _du_lieu du_lieu `(v  1 e 1 0 ]
+{
+[v du_lieu@a a `uc  1 a 1 wreg ]
+[v du_lieu@a a `uc  1 a 1 wreg ]
+[v du_lieu@a a `uc  1 a 1 1 ]
+"56
+} 0
+"38
+[v _khoi_taoLCD khoi_taoLCD `(v  1 e 1 0 ]
+{
+"43
+} 0
+"16
+[v _lenh lenh `(v  1 e 1 0 ]
+{
+[v lenh@a a `uc  1 a 1 wreg ]
+[v lenh@a a `uc  1 a 1 wreg ]
+[v lenh@a a `uc  1 a 1 1 ]
+"29
+} 0
+"30
+[v _gui_Lenh gui_Lenh `(v  1 e 1 0 ]
+{
+[v gui_Lenh@a a `uc  1 a 1 wreg ]
+[v gui_Lenh@a a `uc  1 a 1 wreg ]
+[v gui_Lenh@a a `uc  1 a 1 1 ]
+"37
+} 0
+"104 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/key_pad.h
+[v _khoi_taoKeypad khoi_taoKeypad `(v  1 e 1 0 ]
+{
+"109
+} 0
+"64 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/soft_spi.h
+[v _Soft_SPI_Init Soft_SPI_Init `(v  1 e 1 0 ]
+{
+"77
+} 0
+"151 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/RC522.h
+[v _MFRC522_Init MFRC522_Init `(v  1 e 1 0 ]
+{
+"173
+} 0
+"139
+[v _MFRC522_Reset MFRC522_Reset `(v  1 e 1 0 ]
+{
+"142
+} 0
+"143
+[v _MFRC522_AntennaOn MFRC522_AntennaOn `(v  1 e 1 0 ]
+{
+"146
+} 0
+"135
+[v _MFRC522_Set_Bit MFRC522_Set_Bit `(v  1 s 1 MFRC522_Set_Bit ]
+{
+[v MFRC522_Set_Bit@addr addr `uc  1 a 1 wreg ]
+[v MFRC522_Set_Bit@addr addr `uc  1 a 1 wreg ]
+[v MFRC522_Set_Bit@mask mask `uc  1 p 1 9 ]
+"137
+[v MFRC522_Set_Bit@addr addr `uc  1 a 1 10 ]
+"138
+} 0
+"147
+[v _MFRC522_AntennaOff MFRC522_AntennaOff `(v  1 e 1 0 ]
+{
+"150
+} 0
+"131
+[v _MFRC522_Clear_Bit MFRC522_Clear_Bit `(v  1 s 1 MFRC522_Clear_Bit ]
+{
+[v MFRC522_Clear_Bit@addr addr `uc  1 a 1 wreg ]
+[v MFRC522_Clear_Bit@addr addr `uc  1 a 1 wreg ]
+[v MFRC522_Clear_Bit@mask mask `uc  1 p 1 9 ]
+"133
+[v MFRC522_Clear_Bit@addr addr `uc  1 a 1 11 ]
+"134
+} 0
+"115
+[v _MFRC522_Wr MFRC522_Wr `(v  1 s 1 MFRC522_Wr ]
+{
+[v MFRC522_Wr@addr addr `uc  1 a 1 wreg ]
+[v MFRC522_Wr@addr addr `uc  1 a 1 wreg ]
+[v MFRC522_Wr@value value `uc  1 p 1 6 ]
+"117
+[v MFRC522_Wr@addr addr `uc  1 a 1 8 ]
+"121
+} 0
+"122
+[v _MFRC522_Rd MFRC522_Rd `(uc  1 e 1 0 ]
+{
+[v MFRC522_Rd@addr addr `uc  1 a 1 wreg ]
+"124
+[v MFRC522_Rd@value value `uc  1 a 1 5 ]
+"122
+[v MFRC522_Rd@addr addr `uc  1 a 1 wreg ]
+"125
+[v MFRC522_Rd@addr addr `uc  1 a 1 4 ]
+"130
+} 0
+"101 C:\Users\Giang\MPLABXProjects\PROJECTVDK.X/soft_spi.h
+[v _Soft_SPI_Write Soft_SPI_Write `(v  1 e 1 0 ]
+{
+[v Soft_SPI_Write@dato_ dato_ `uc  1 a 1 wreg ]
+"103
+[v Soft_SPI_Write@cont_s cont_s `uc  1 a 1 2 ]
+"101
+[v Soft_SPI_Write@dato_ dato_ `uc  1 a 1 wreg ]
+"103
+[v Soft_SPI_Write@dato_ dato_ `uc  1 a 1 1 ]
+"117
+} 0
+"80
+[v _Soft_SPI_Read Soft_SPI_Read `(uc  1 e 1 0 ]
+{
+"82
+[v Soft_SPI_Read@cont_s cont_s `uc  1 a 1 2 ]
+"83
+[v Soft_SPI_Read@dato_ dato_ `uc  1 a 1 1 ]
+"99
+} 0
